@@ -1,0 +1,397 @@
+{
+  "datasetVersion": 20261021,
+  "minAppVersionCode": 1,
+  "methodology": {
+    "engine": "Nolan-20",
+    "economicQuestionsCount": 10,
+    "personalQuestionsCount": 10,
+    "scoreRangeMin": 0,
+    "scoreRangeMax": 100
+  },
+  "questions": [
+    {
+      "id": "econ_01",
+      "index": 1,
+      "axis": "ECONOMIC",
+      "text": "Debe flexibilizarse la contratación y el despido laboral, reduciendo las indemnizaciones fijadas por ley.",
+      "favorableToFreedom": true,
+      "topic": "Mercado Laboral",
+      "detail": "Evalúa la preferencia entre libertad de contratación empresarial o protección legal de los trabajadores."
+    },
+    {
+      "id": "econ_02",
+      "index": 2,
+      "axis": "ECONOMIC",
+      "text": "El Estado debe reducir drásticamente los impuestos sobre la renta y las empresas, aunque implique recortar partidas públicas.",
+      "favorableToFreedom": true,
+      "topic": "Presión Fiscal",
+      "detail": "Evalúa la preferencia por un menor peso impositivo frente a la recaudación para servicios estatales."
+    },
+    {
+      "id": "econ_03",
+      "index": 3,
+      "axis": "ECONOMIC",
+      "text": "El gobierno debe limitar los precios del alquiler y sancionar a grandes propietarios con viviendas vacías.",
+      "favorableToFreedom": false,
+      "topic": "Vivienda y Alquiler",
+      "detail": "Pregunta invertida: la intervención en precios restringe la libertad de mercado inmobiliario."
+    },
+    {
+      "id": "econ_04",
+      "index": 4,
+      "axis": "ECONOMIC",
+      "text": "El sistema de pensiones debería transitar hacia modelos mixtos con planes privados de capitalización individual.",
+      "favorableToFreedom": true,
+      "topic": "Sistema de Pensiones",
+      "detail": "Evalúa la transición hacia el ahorro personal frente al monopolio del sistema público de reparto."
+    },
+    {
+      "id": "econ_05",
+      "index": 5,
+      "axis": "ECONOMIC",
+      "text": "Los sectores energéticos y de telecomunicaciones estratégicos deben ser de propiedad o control estatal preferente.",
+      "favorableToFreedom": false,
+      "topic": "Nacionalizaciones y Sectores Estratégicos",
+      "detail": "Pregunta invertida: la titularidad pública limita la libre competencia y propiedad privada."
+    },
+    {
+      "id": "econ_06",
+      "index": 6,
+      "axis": "ECONOMIC",
+      "text": "Deben suprimirse las subvenciones y ayudas públicas directas a empresas privadas y sindicatos.",
+      "favorableToFreedom": true,
+      "topic": "Subvenciones y Ayudas",
+      "detail": "Evalúa el libre funcionamiento sin distorsiones del erario público."
+    },
+    {
+      "id": "econ_07",
+      "index": 7,
+      "axis": "ECONOMIC",
+      "text": "La gestión de la sanidad y la educación debe ser 100% de gestión pública directa, eliminando conciertos privados.",
+      "favorableToFreedom": false,
+      "topic": "Servicios Básicos y Conciertos",
+      "detail": "Pregunta invertida: la exclusividad estatal elimina la libre elección de centro y gestión mixta."
+    },
+    {
+      "id": "econ_08",
+      "index": 8,
+      "axis": "ECONOMIC",
+      "text": "El salario mínimo interprofesional debe ser pactado libremente entre trabajador y empleador sin fijación obligatoria por decreto.",
+      "favorableToFreedom": true,
+      "topic": "Salario Mínimo",
+      "detail": "Evalúa el acuerdo entre partes frente a la regulación centralizada de salarios mínimos."
+    },
+    {
+      "id": "econ_09",
+      "index": 9,
+      "axis": "ECONOMIC",
+      "text": "Debe aplicarse libre comercio internacional sin aranceles ni barreras a los productos extranjeros, aunque compitan con la producción nacional.",
+      "favorableToFreedom": true,
+      "topic": "Comercio Internacional",
+      "detail": "Evalúa el libre comercio global frente al proteccionismo económico."
+    },
+    {
+      "id": "econ_10",
+      "index": 10,
+      "axis": "ECONOMIC",
+      "text": "Deben existir impuestos específicos y extraordinarios sobre el patrimonio, las sucesiones y las grandes fortunas.",
+      "favorableToFreedom": false,
+      "topic": "Impuesto a la Riqueza",
+      "detail": "Pregunta invertida: los gravámenes patrimoniales específicos reducen la acumulación y transmisión libre de capital."
+    },
+    {
+      "id": "pers_01",
+      "index": 11,
+      "axis": "PERSONAL",
+      "text": "Las personas adultas deben tener derecho legal a decidir voluntariamente sobre su propia eutanasia médica.",
+      "favorableToFreedom": true,
+      "topic": "Eutanasia y Muerte Digna",
+      "detail": "Evalúa la soberanía del individuo sobre su vida y su cuerpo."
+    },
+    {
+      "id": "pers_02",
+      "index": 12,
+      "axis": "PERSONAL",
+      "text": "La libertad de expresión debe amparar las críticas ácidas y sátiras contra símbolos del Estado, religión o la Corona.",
+      "favorableToFreedom": true,
+      "topic": "Libertad de Expresión",
+      "detail": "Evalúa la protección de la discrepancia verbal frente a la tutela penal de símbolos."
+    },
+    {
+      "id": "pers_03",
+      "index": 13,
+      "axis": "PERSONAL",
+      "text": "Debe legalizarse y regularse el consumo y la venta de cannabis para uso recreativo en adultos.",
+      "favorableToFreedom": true,
+      "topic": "Consumo de Sustancias",
+      "detail": "Evalúa la autodeterminación individual en el consumo de sustancias para adultos."
+    },
+    {
+      "id": "pers_04",
+      "index": 14,
+      "axis": "PERSONAL",
+      "text": "El Estado debe endurecer el control fronterizo y expulsar de forma inmediata a cualquier persona en situación administrativa irregular.",
+      "favorableToFreedom": false,
+      "topic": "Fronteras e Inmigración",
+      "detail": "Pregunta invertida: la restricción estricta de libre circulación y expulsión punitiva prioriza el control estatal."
+    },
+    {
+      "id": "pers_05",
+      "index": 15,
+      "axis": "PERSONAL",
+      "text": "Ninguna confesión religiosa debe recibir fondos públicos, exenciones de IBI ni presencia de autoridades en actos litúrgicos.",
+      "favorableToFreedom": true,
+      "topic": "Laicidad del Estado",
+      "detail": "Evalúa la neutralidad civil del Estado frente a credos particulares."
+    },
+    {
+      "id": "pers_06",
+      "index": 16,
+      "axis": "PERSONAL",
+      "text": "Debe permitirse el reconocimiento facial biométrico generalizado en espacios públicos para prevenir la delincuencia.",
+      "favorableToFreedom": false,
+      "topic": "Privacidad y Vigilancia",
+      "detail": "Pregunta invertida: la vigilancia biométrica masiva merma la privacidad personal en beneficio del control."
+    },
+    {
+      "id": "pers_07",
+      "index": 17,
+      "axis": "PERSONAL",
+      "text": "La ley debe reconocer y proteger plenamente los derechos del matrimonio igualitario y la autodeterminación de género.",
+      "favorableToFreedom": true,
+      "topic": "Diversidad y Derechos LGTBI",
+      "detail": "Evalúa la igualdad civil y autonomía personal respecto a la identidad y modelo familiar."
+    },
+    {
+      "id": "pers_08",
+      "index": 18,
+      "axis": "PERSONAL",
+      "text": "Debería reinstaurarse un servicio cívico o militar obligatorio para todos los jóvenes al cumplir la mayoría de edad.",
+      "favorableToFreedom": false,
+      "topic": "Servicio Obligatorio",
+      "detail": "Pregunta invertida: la conscripción o servicio forzoso suprime la libertad temporal del ciudadano."
+    },
+    {
+      "id": "pers_09",
+      "index": 19,
+      "axis": "PERSONAL",
+      "text": "Las protestas y manifestaciones pacíficas no deberían requerir autorización previa de las delegaciones del gobierno ni multas administrativas sumarias.",
+      "favorableToFreedom": true,
+      "topic": "Derecho de Manifestación",
+      "detail": "Evalúa el ejercicio libre del derecho de reunión sin trabas de seguridad estatal preventiva."
+    },
+    {
+      "id": "pers_10",
+      "index": 20,
+      "axis": "PERSONAL",
+      "text": "La interrupción voluntaria del embarazo debe estar regulada como un derecho dentro de un sistema de plazos sin trabas para la mujer.",
+      "favorableToFreedom": true,
+      "topic": "Derechos Reproductivos",
+      "detail": "Evalúa la autonomía reproductiva individual femenina sin penalización estatal."
+    }
+  ],
+  "parties": [
+    {
+      "id": "psoe",
+      "name": "Partido Socialista Obrero Español",
+      "acronym": "PSOE",
+      "primaryColorHex": "#E30613",
+      "nolanCoordinates": { "economic": 35, "personal": 75 },
+      "answers": {
+        "econ_01": 0,
+        "econ_02": 3,
+        "econ_03": 7,
+        "econ_04": 3,
+        "econ_05": 5,
+        "econ_06": 3,
+        "econ_07": 3,
+        "econ_08": 0,
+        "econ_09": 7,
+        "econ_10": 10,
+        "pers_01": 10,
+        "pers_02": 5,
+        "pers_03": 3,
+        "pers_04": 5,
+        "pers_05": 7,
+        "pers_06": 5,
+        "pers_07": 10,
+        "pers_08": 0,
+        "pers_09": 5,
+        "pers_10": 10
+      },
+      "sources": {
+        "econ_01": "Reforma Laboral Real Decreto-ley 32/2021: fortalecimiento de convenios colectivos.",
+        "econ_03": "Ley 12/2023 por el derecho a la vivienda: contención de rentas.",
+        "pers_01": "Voto favorable a la Ley Orgánica 3/2021 de regulación de la eutanasia.",
+        "pers_07": "Voto favorable a la Ley 4/2023 para la igualdad real de personas trans y LGTBI.",
+        "pers_10": "Voto favorable a la reforma de la Ley de Salud Sexual y Reproductiva (2023)."
+      },
+      "description": "Socialdemocracia clásica europea: defensa de los servicios públicos, fiscalidad progresiva y ampliación de derechos sociales."
+    },
+    {
+      "id": "pp",
+      "name": "Partido Popular",
+      "acronym": "PP",
+      "primaryColorHex": "#0055A5",
+      "nolanCoordinates": { "economic": 70, "personal": 35 },
+      "answers": {
+        "econ_01": 7,
+        "econ_02": 10,
+        "econ_03": 0,
+        "econ_04": 7,
+        "econ_05": 0,
+        "econ_06": 7,
+        "econ_07": 7,
+        "econ_08": 3,
+        "econ_09": 7,
+        "econ_10": 0,
+        "pers_01": 0,
+        "pers_02": 3,
+        "pers_03": 0,
+        "pers_04": 7,
+        "pers_05": 3,
+        "pers_06": 7,
+        "pers_07": 5,
+        "pers_08": 3,
+        "pers_09": 3,
+        "pers_10": 3
+      },
+      "sources": {
+        "econ_02": "Propuesta de rebaja del IRPF a rentas medias y bonificación al 100% de Sucesiones y Donaciones.",
+        "econ_03": "Recurso ante el Tribunal Constitucional contra la Ley de Vivienda (2023).",
+        "pers_01": "Voto en contra de la Ley Orgánica de regulación de la eutanasia y recurso al TC.",
+        "pers_07": "Enmienda a la totalidad a la Ley Trans (2022)."
+      },
+      "description": "Centro-derecha liberal-conservador: fomento de la iniciativa privada, rebajas impositivas y valores constitucionales tradicionales."
+    },
+    {
+      "id": "vox",
+      "name": "VOX",
+      "acronym": "VOX",
+      "primaryColorHex": "#63BE21",
+      "nolanCoordinates": { "economic": 75, "personal": 15 },
+      "answers": {
+        "econ_01": 7,
+        "econ_02": 10,
+        "econ_03": 0,
+        "econ_04": 7,
+        "econ_05": 3,
+        "econ_06": 10,
+        "econ_07": 10,
+        "econ_08": 3,
+        "econ_09": 3,
+        "econ_10": 0,
+        "pers_01": 0,
+        "pers_02": 3,
+        "pers_03": 0,
+        "pers_04": 10,
+        "pers_05": 0,
+        "pers_06": 10,
+        "pers_07": 0,
+        "pers_08": 7,
+        "pers_09": 0,
+        "pers_10": 0
+      },
+      "sources": {
+        "econ_02": "Propuesta de tipo único reducido de IRPF (flat tax) y supresión del impuesto de patrimonio.",
+        "pers_01": "Voto en contra de la eutanasia, defensa del valor inviolable de la vida.",
+        "pers_04": "Propuesta de expulsión inmediata de inmigrantes irregulares y bloqueo naval.",
+        "pers_07": "Derogación de la Ley Trans y oposición al matrimonio de parejas del mismo sexo."
+      },
+      "description": "Derecha conservadora e identitaria: libre mercado nacional, bajada radical de impuestos y estricta defensa del orden y las tradiciones."
+    },
+    {
+      "id": "sumar",
+      "name": "Sumar",
+      "acronym": "SUMAR",
+      "primaryColorHex": "#E51C55",
+      "nolanCoordinates": { "economic": 20, "personal": 85 },
+      "answers": {
+        "econ_01": 0,
+        "econ_02": 0,
+        "econ_03": 10,
+        "econ_04": 0,
+        "econ_05": 10,
+        "econ_06": 0,
+        "econ_07": 0,
+        "econ_08": 0,
+        "econ_09": 3,
+        "econ_10": 10,
+        "pers_01": 10,
+        "pers_02": 7,
+        "pers_03": 7,
+        "pers_04": 0,
+        "pers_05": 10,
+        "pers_06": 0,
+        "pers_07": 10,
+        "pers_08": 0,
+        "pers_09": 10,
+        "pers_10": 10
+      },
+      "sources": {
+        "econ_03": "Iniciativas parlamentarias para topar al 100% los alquileres de temporada y turísticos.",
+        "econ_10": "Propuesta de Impuesto Permanente a las Grandes Fortunas y herencia universal pública.",
+        "pers_03": "Proposición de Ley para la regulación integral del cannabis para adultos.",
+        "pers_09": "Iniciativa para la derogación total de la Ley de Seguridad Ciudadana (Ley Mordaza)."
+      },
+      "description": "Izquierda transformadora y ecologista: control público de precios, redistribución de la riqueza y máximos derechos civiles."
+    }
+  ],
+  "archetypes": [
+    {
+      "id": "arch_libertarian",
+      "region": "LIBERTARIAN",
+      "title": "Cripto-filósofo del libre albedrío",
+      "punchline": "Si por ti fuera, hasta las aceras cotizarían en bolsa.",
+      "description": "Crees fervientemente en que el individuo debe ser el único dueño de su destino, su dinero y sus hábitos privados. Tu pesadilla recurrente es una inspección de Hacienda con cita previa."
+    },
+    {
+      "id": "arch_progressive",
+      "region": "PROGRESSIVE",
+      "title": "Socialdemócrata militante del BOE",
+      "punchline": "No hay problema humano que no resuelva una comisión ministerial bien dotada.",
+      "description": "Defiendes con pasión las libertades individuales, pero consideras que sin un Estado protector fuerte que redistribuya la riqueza, la jungla del mercado acabará devorándonos a todos."
+    },
+    {
+      "id": "arch_conservative",
+      "region": "CONSERVATIVE",
+      "title": "Defensor del orden y la libre empresa",
+      "punchline": "Impuestos mínimos, domingos en familia y respeto a la autoridad.",
+      "description": "Valoras el esfuerzo individual, la propiedad privada y las tradiciones que dan estabilidad a la sociedad. Desconfías de las modas ideológicas rupturistas y de la intervención pública."
+    },
+    {
+      "id": "arch_authoritarian",
+      "region": "AUTHORITARIAN",
+      "title": "Estatista de orden marcial",
+      "punchline": "La libertad está sobrevalorada si falta disciplina y control.",
+      "description": "Crees que el ser humano necesita mano firme tanto en lo moral como en la economía para evitar el caos. Prefieres la seguridad y la planificación central a la incertidumbre del libre mercado."
+    },
+    {
+      "id": "arch_centrist",
+      "region": "CENTRIST",
+      "title": "Pragmático equidistante",
+      "punchline": "El arte de dar la razón a todos sin casarte con nadie.",
+      "description": "Ni revolución ni nostalgia. Buscas el justo medio aritmético en cada debate. Para ti, la sensatez y los pactos de Estado están por encima de cualquier dogma de trinchera."
+    }
+  ],
+  "tension_rules": [
+    {
+      "id": "tension_low_taxes_high_services",
+      "title": "El milagro de los panes y los peces fiscales",
+      "commentary": "Pides rebajas drásticas de impuestos en el bolsillo, pero a la vez rechazas cualquier ajuste en servicios públicos. Un modelo sueco financiado con la tributación de las Islas Caimán.",
+      "conditions": [
+        { "questionId": "econ_02", "operator": "GTE", "targetScore": 7 },
+        { "questionId": "econ_07", "operator": "LTE", "targetScore": 3 }
+      ]
+    },
+    {
+      "id": "tension_liberties_with_curfew",
+      "title": "Bohemio con vocación de toque de queda",
+      "commentary": "Reclamas máxima autonomía personal y despenalización de hábitos privados, pero apoyas cámaras biométricas y vigilancia masiva en cada esquina.",
+      "conditions": [
+        { "questionId": "pers_03", "operator": "GTE", "targetScore": 7 },
+        { "questionId": "pers_06", "operator": "LTE", "targetScore": 3 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metodología y Fuentes | PoliticTest España 2026</title>
+  <meta name="description" content="Documentación metodológica completa del motor de puntuación de Nolan (20 preguntas, escala 0-100) y justificación de fuentes parlamentarias para partidos políticos.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .method-content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 60px 0;
+    }
+    .method-content h1 {
+      font-size: 2.4rem;
+      margin-bottom: 8px;
+    }
+    .method-content .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 36px;
+    }
+    .method-content h2 {
+      font-size: 1.6rem;
+      margin: 40px 0 16px;
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    .method-content h3 {
+      font-size: 1.25rem;
+      margin: 24px 0 12px;
+      color: var(--primary-light);
+    }
+    .method-content p, .method-content li {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+    .method-content ul, .method-content ol {
+      margin-left: 24px;
+      margin-bottom: 20px;
+    }
+    .formula-card {
+      background: #0b1120;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--primary);
+      border-radius: var(--radius-sm);
+      padding: 18px 24px;
+      font-family: monospace;
+      color: #38bdf8;
+      font-size: 1.05rem;
+      margin: 20px 0;
+    }
+    .question-list-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      margin-bottom: 12px;
+    }
+    .question-list-item strong {
+      color: var(--text-primary);
+    }
+    .axis-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-right: 8px;
+      text-transform: uppercase;
+    }
+    .tag-econ { background: rgba(99, 102, 241, 0.2); color: #818cf8; }
+    .tag-pers { background: rgba(13, 148, 136, 0.2); color: #2dd4bf; }
+  </style>
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">🧭</span>
+        <span>PoliticTest 2026</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="methodology.html" class="active">Metodología</a></li>
+        <li><a href="privacy.html">Privacidad</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="method-content">
+      <h1>Metodología de Puntuación y Transparencia</h1>
+      <div class="subtitle">Especificación matemática determinista y fuentes de datos empíricas</div>
+
+      <h2>1. Fundamentación Teórica: El Diagrama de Nolan</h2>
+      <p>
+        El modelo tradicional unidimensional (el eje simplista "izquierda-derecha") resulta insuficiente para reflejar la complejidad ideológica contemporánea. En España coexisten posturas favorables al libre mercado con alto conservadurismo moral, así como opciones partidarias de la intervención pública en la economía que a la vez defienden la máxima libertad civil individual.
+      </p>
+      <p>
+        PoliticTest adopta el <strong>Diagrama de Nolan</strong>, formulado originalmente por David Nolan y popularizado por <em>The World's Smallest Political Quiz</em>, adaptado minuciosamente al contexto político y económico español de las Elecciones Generales de 2026.
+      </p>
+
+      <h2>2. Estructura del Cuestionario (20 Preguntas)</h2>
+      <p>
+        El test consta de <strong>20 preguntas cerradas</strong>, distribuidas equilibradamente:
+      </p>
+      <ul>
+        <li><strong>10 preguntas de Libertad Económica:</strong> Fiscalidad, regulación laboral, pensiones, control de alquileres, titularidad de sectores estratégicos, ayudas públicas, conciertos educativos/sanitarios, salario mínimo, comercio internacional e impuesto a grandes patrimonios.</li>
+        <li><strong>10 preguntas de Libertad Personal / Social:</strong> Eutanasia, libertad de expresión y delitos de opinión, regulación de cannabis, fronteras e inmigración, laicidad estatal, privacidad frente a videovigilancia biométrica, diversidad de género y familia, servicio militar, derecho de manifestación y derechos reproductivos.</li>
+      </ul>
+
+      <h3>Escala de Puntuación</h3>
+      <p>Cada pregunta admite cinco respuestas con puntuaciones discretas objetivas:</p>
+      <ul>
+        <li><strong>Totalmente de acuerdo:</strong> 10 puntos (0 si la pregunta formula restricción de libertad).</li>
+        <li><strong>Parcialmente de acuerdo:</strong> 7 puntos (3 si es inversa).</li>
+        <li><strong>Neutral / Sin postura definida:</strong> 5 puntos en cualquier orientación.</li>
+        <li><strong>Parcialmente en desacuerdo:</strong> 3 puntos (7 si es inversa).</li>
+        <li><strong>Totalmente en desacuerdo:</strong> 0 puntos (10 si es inversa).</li>
+      </ul>
+
+      <div class="formula-card">
+        Puntuación Eje Económico (X) = Σ Puntos(Pregunta 1..10) ∈ [0, 100]<br>
+        Puntuación Eje Personal (Y)  = Σ Puntos(Pregunta 11..20) ∈ [0, 100]
+      </div>
+
+      <h2>3. Definición Geométrica de las 5 Regiones</h2>
+      <p>
+        En el plano cartesiano $[0, 100] \times [0, 100]$, la clasificación ideológica es puramente geométrica y determinista:
+      </p>
+
+      <h3>A. Rombo Central (Región Centrista)</h3>
+      <p>
+        Se define mediante la distancia de Manhattan normalizada al centro geométrico $(50, 50)$:
+      </p>
+      <div class="formula-card">
+        Es Centrista si: |X - 50| + |Y - 50| ≤ 25
+      </div>
+      <p>
+        Garantiza que cualquier combinación moderada y equilibrada en torno a la media quede situada en la zona central.
+      </p>
+
+      <h3>B. Los Cuatro Cuadrantes Exteriores</h3>
+      <p>Para aquellos puntos fuera del rombo central:</p>
+      <ul>
+        <li><strong>Libertario:</strong> X ≥ 50 e Y ≥ 50 (Alta libertad económica y personal).</li>
+        <li><strong>Progresista (Izquierda social):</strong> X &lt; 50 e Y ≥ 50 (Alta libertad personal, preferencia por regulación/redistribución económica).</li>
+        <li><strong>Conservador (Derecha tradicional):</strong> X ≥ 50 e Y &lt; 50 (Libre mercado y propiedad, preferencia por el orden y valores tradicionales).</li>
+        <li><strong>Autoritario / Estatista:</strong> X &lt; 50 e Y &lt; 50 (Preferencia por la tutela y el control estatal en ambos ámbitos).</li>
+      </ul>
+
+      <h2>4. Módulo de Comparación Electoral</h2>
+      <p>
+        La coincidencia con partidos políticos es un <strong>módulo de cálculo desacoplado e independiente</strong>. No altera en ningún momento las coordenadas $(X, Y)$ del usuario en Nolan.
+      </p>
+
+      <h3>Fórmula de Coincidencia Programática</h3>
+      <p>
+        Para un partido $P$ con posturas documentadas $p_i$ sobre las cuestiones respondidas por el usuario $u_i$:
+      </p>
+      <div class="formula-card">
+        Discrepancia Media = (1 / N) · Σ (|u_i - p_i| / 10)<br>
+        Afinidad Programática (%) = (1 - Discrepancia Media) · 100%
+      </div>
+
+      <h3>Principio de Evidencia Suficiente (Regla del 60%)</h3>
+      <p>
+        Si un partido político no dispone de posicionamientos oficiales documentados en al menos <strong>12 de las 20 cuestiones (60%)</strong>, la aplicación marca la comparación como <em>«Incompleta por falta de posicionamiento parlamentario verificado»</em>, evitando la asignación arbitraria de puntuaciones basadas en meras etiquetas o prejuicios.
+      </p>
+
+      <h2>5. Fuentes Documentales de Partidos</h2>
+      <p>
+        Las respuestas asignadas a los partidos políticos provienen exclusivamente de registros públicos contrastables:
+      </p>
+      <ul>
+        <li><strong>Iniciativas legislativas y votaciones oficiales:</strong> Diario de Sesiones del Congreso de los Diputados (votaciones de la Ley de Eutanasia, Ley de Vivienda, Reforma Laboral, etc.).</li>
+        <li><strong>Programas electorales oficiales:</strong> Programas registrados ante la Junta Electoral Central para elecciones generales.</li>
+        <li><strong>Recursos de inconstitucionalidad interpuestos:</strong> Presentados ante el Tribunal Constitucional.</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="copyright">
+        © 2026 PoliticTest • Metodología Abierta y Reproducible
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
